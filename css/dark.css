@@ -1,0 +1,97 @@
+
+html {
+    color: #272728;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #333;
+    color: #eee;
+    text-shadow: none;
+}
+
+::selection {
+    background: #333;
+    color: #eee;
+    text-shadow: none;
+}
+
+body {
+    background-color: #272728;
+    color: #fff;
+}
+a, a:visited {
+    color: #fff;
+}
+a:hover {
+    color: #777;
+}
+
+header {
+    background-color: #272728;
+
+/*    box-shadow: 50px 0px 50px #FFF;*/
+}
+
+ul.nav {
+    border-bottom: 2px solid #fff;
+}
+
+ul.nav li a {
+    color: #fff;
+    border: 1px solid transparent;
+
+}
+ul.nav li a:hover {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.active-tab {
+    color: #272728 !important;
+    background-color: #fff !important;
+}
+
+.releases {
+    position: relative;
+    height: 410px;
+    padding-bottom: 40px;
+    overflow:auto;
+}
+
+.releases-container {
+    border-bottom: 2px solid #fff;
+}
+
+.releases-container ul.releases li h2{
+    background-color: #272728;
+    border-bottom: 1px solid #fff;
+}
+.releases-container ul.releases li p{
+    background-color: #fff;
+}
+
+.right a, .right a:visited {
+    color: #272728;
+    background-color: #FFF;
+    border: 1px solid #272728;
+}
+
+.right a:hover {
+    color: #FFF;
+    background-color: #272728;
+}
+
+.play-sq {
+    background-color: #272728;
+}
+h3 {
+    color: #fff;
+}
+
+.footer {
+    border-color: #fff;
+}
+

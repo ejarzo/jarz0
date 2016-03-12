@@ -1,0 +1,335 @@
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #333;
+    color: #eee;
+    text-shadow: none;
+}
+
+::selection {
+    background: #333;
+    color: #eee;
+    text-shadow: none;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: "Gill Sans","Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    background-color: #fff;
+    color: #222;
+    margin-bottom: 70px;
+}
+a, a:visited {
+    text-decoration: none;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    -ms-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+    color: #222;
+}
+a:hover {
+    color: #777;
+}
+a.blue, a.blue:visited {
+    color: #26a5ef;
+}
+header {
+    position: relative;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    max-width: 1000px;
+    z-index: 20;
+}
+h1 {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h3 {
+    color: #777;
+    margin-top: 20px;
+    font-size: 15px;
+    position: absolute;
+    bottom:30px;
+}
+
+iframe {
+    width: calc(100% + 73px) !important;
+    position: relative;
+/*    opacity: .8;*/
+}
+#wrapper {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 30px;
+}
+ul.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #222;
+  /*  background-color: #222;*/
+}
+
+ul.nav li {
+    display: inline-block;
+}
+
+ul.nav li a {
+    color: #222;
+    padding: 3px 5px 3px 5px;
+    border: 1px solid transparent;
+}
+ul.nav li a:hover {
+    /*color: #fff;*/
+    border-color: #222;
+}
+.active-tab {
+    color: #fff !important;
+    background-color: #222 !important;
+    border-color: #222;
+}
+
+#content {
+    padding-top: 0px;
+}
+
+
+.outnow {
+    text-align: center;
+    margin: 20px auto;
+    padding-bottom: 120px;
+    width: 100%;
+    max-width: 500px;
+    overflow: hidden;
+}
+.outnow img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.outnow h3, .outnow .download {
+    position: static;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px !important;
+}
+.outnow .download {
+    width: 120px;
+}
+
+
+
+.releases-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;  
+    border-bottom: 2px solid #222;
+}
+
+.releases-container ul.releases {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+
+.releases-container ul.releases li {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 55px;
+    margin-top: 25px;
+}
+
+.releases-container ul.releases li img{
+    width: 100%;
+    display: inline-block;
+}
+
+.releases-container ul.releases li h2{
+    display: block;
+    vertical-align: top;
+    top: 0;
+    padding-top: 0;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #222;
+}
+.releases-container ul.releases li p{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 5px;
+    background-color: #fff;
+}
+
+.releases {
+    position: relative;
+    height: 410px;
+    padding-bottom: 40px;
+    overflow: auto;
+}
+.fright{
+    float: right;
+}
+
+.left {
+    width: 40%;
+}
+
+.right {
+    width: 60%;
+    padding-left: 10px;
+}
+.left, .right {
+    float: left;
+    overflow: hidden;
+}
+
+
+video {
+    width: 100%;
+    max-width: 850px;
+    margin: 50px auto;
+    display: block;
+}
+.video-deatails {
+    width: 100%;
+    max-width: 850px;
+    margin: 0px auto;
+    margin-bottom: 100px;
+}
+
+
+.download, .download:visited {
+    color: #222;
+    background-color: #FFF;
+    font-size: 15px;
+    border: 1px solid #222;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+.download:hover {
+    color: #FFF;
+    background-color: #222;
+}
+
+.play-sq {
+    width: 20px;
+    height: 20px;
+    background-color: #222;
+    position: relative;
+    top: -20px;
+    margin-bottom: -15px;
+    z-index: -2;
+}
+
+.footer {
+    text-align: center;
+    width: calc(100% - 60px);
+    padding-top: 20px;
+    border-top: 2px solid #222;
+    position: absolute;
+    bottom: 0;
+    /* Set the fixed height of the footer here */
+    height: 70px;
+    max-width: 1000px;
+    margin: 0 auto;
+    left: 20px;
+    right: 20px;
+    font-size: 20px;
+}
+
+.info-text {
+    margin: 50px auto;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.info-text img{
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (max-width: 470px) {
+    h3, .download {
+        position: static;
+    }
+}

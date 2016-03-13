@@ -215,7 +215,7 @@ ul.nav li a:hover {
 
 .releases {
     position: relative;
-    height: 410px;
+/*    height: 410px;*/
     padding-bottom: 40px;
     overflow: auto;
 }
@@ -279,14 +279,14 @@ video {
 
 .footer {
     text-align: center;
-    width: calc(100% - 60px);
+    width: 100%;
     padding-top: 20px;
     border-top: 2px solid #222;
     position: absolute;
     bottom: 0;
     /* Set the fixed height of the footer here */
     height: 70px;
-    max-width: 1000px;
+    max-width: 940px;
     margin: 0 auto;
     left: 20px;
     right: 20px;

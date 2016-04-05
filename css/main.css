@@ -79,7 +79,7 @@ a.blue, a.blue:visited {
 header {
     position: relative;
     top: 0;
-    background-color: #fff;
+    /*background-color: #fff;*/
     width: 100%;
     max-width: 1000px;
     z-index: 20;
@@ -217,7 +217,6 @@ ul.nav li a:hover {
     position: relative;
 /*    height: 410px;*/
     padding-bottom: 40px;
-    overflow: auto;
 }
 .fright{
     float: right;
@@ -285,12 +284,19 @@ video {
     position: absolute;
     bottom: 0;
     /* Set the fixed height of the footer here */
-    height: 70px;
+    height: 90px;
     max-width: 940px;
     margin: 0 auto;
     left: 20px;
     right: 20px;
     font-size: 20px;
+}
+
+footer span {
+    display: block;
+    margin-top: 2px;
+    font-size: 12px;
+    color: #999;
 }
 
 .info-text {

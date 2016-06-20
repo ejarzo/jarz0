@@ -102,6 +102,10 @@ iframe {
     position: relative;
 /*    opacity: .8;*/
 }
+.embed-video {
+    width: 600px !important;
+    margin: 30px auto;
+}
 #wrapper {
     width: 100%;
     max-width: 1000px;
